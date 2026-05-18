@@ -4,7 +4,20 @@ API REST para gerenciamento de estoque desenvolvida com Java e Spring Boot.
 [![Java](https://img.shields.io/badge/Java-21-blue.svg)](https://www.java.com)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
 
-Um sistema simples de **gestão de estoque (WMS)** desenvolvido em Spring Boot, com foco em controle de produtos, movimentação de estoque (entrada e saída) e alertas de estoque baixo.
+Um sistema simples de **gestão de estoque (WMS)** desenvolvido em Spring Boot, com foco em cadastro de produtos e estrutura inicial de gerenciamento de estoque e alertas de estoque baixo.
+
+## 📁 Estrutura do Projeto
+
+```text
+src/main/java/com/davi/wms
+├── controller
+├── service
+├── repository
+├── entity
+├── dto
+├── config
+└── exception
+```
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -95,18 +108,32 @@ Senha: (em branco)
 
 ## Próximas Funcionalidades
 
+### Infraestrutura
 - [ ] Migração para MySQL
+- [ ] Docker + Docker Compose
+
+### Arquitetura
 - [ ] Implementação de DTOs
 - [ ] Tratamento global de exceções
-- [ ] Testes unitários com JUnit e Mockito
-- [ ] Docker + Docker Compose
+- [ ] Padronização de respostas da API
+
+### Segurança
 - [ ] Spring Security + JWT
-- [ ] Módulo de endereçamento logístico
+
+### Qualidade
+- [ ] Testes unitários com JUnit e Mockito
+
+### Regras de Negócio
+- [ ] Módulo de movimentações
+- [ ] Endereçamento logístico
+- [ ] Histórico de movimentações
+- [ ] Auditoria
+
+### Deploy
 - [ ] Deploy em nuvem
 
 ## Autor
-Feito por Davi Feldmann
-Estudante de Java e desenvolvimento backend.
+Feito por Davi Feldmann | Estudante de Java e desenvolvimento backend.
 Aberto a oportunidades de estágio e desenvolvimento Java Júnior.
 
 Qualquer feedback ou sugestão é muito bem-vindo!
