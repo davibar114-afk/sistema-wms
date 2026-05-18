@@ -42,7 +42,7 @@ sistema-wms
 ## 🎯 Funcionalidades Implementadas
 
 - Cadastro de produtos com SKU único
-- Controle de estoque (entrada e saída)
+- Controle básico de quantidade de estoque
 - Consulta de produtos com estoque baixo
 - Atualização e desativação lógica de produtos
 - Persistência com JPA/Hibernate
