@@ -9,14 +9,23 @@ Um sistema simples de **gestão de estoque (WMS)** desenvolvido em Spring Boot, 
 ## 📁 Estrutura do Projeto
 
 ```text
-src/main/java/com/davi/wms
-├── controller
-├── service
-├── repository
-├── entity
-├── dto
-├── config
-└── exception
+sistema-wms
+├── src
+│   ├── main
+│   │   ├── java/com/davi/wms
+│   │   │   ├── controller
+│   │   │   ├── service
+│   │   │   ├── repository
+│   │   │   ├── entity
+│   │   │   ├── dto
+│   │   │   ├── config
+│   │   │   └── exception
+│   │   └── resources
+│   └── test
+├── data
+├── pom.xml
+├── README.md
+└── .gitignore
 ```
 
 ## 🚀 Tecnologias Utilizadas
